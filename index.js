@@ -18,7 +18,7 @@ app.use(MasyarakatRoute)
 app.use(PengaduanRoute)
 app.use(PetugasRoute)
 app.use(TanggapanRoute)
-
+app.use(MasyarakatRoute)
 app.get("/",(req,res) => res.send("Masih pake api")) 
 
 app.listen(port,() => console.log(`serve berjalan di http://localhost:${port}`))
